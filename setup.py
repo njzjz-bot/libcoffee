@@ -17,7 +17,7 @@ setup(
     author_email="yanagisawa@c.titech.ac.jp",
     license="MIT",
     url="https://github.com/akiyamalab/libcoffee",
-    install_requires=["openbabel-wheel", "rdkit", "rdkit-stubs", "numpy", "pytest"],
+    install_requires=["openbabel>=3.2.0", "rdkit", "rdkit-stubs", "numpy", "pytest"],
     extras_require={},
     entry_points={},
     classifiers=[
